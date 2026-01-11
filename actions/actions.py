@@ -65,8 +65,8 @@ class retreiveFacultyDetails(Action):
                         print(department)
                         print(office_num)
                   
-                        dispatcher.utter_message('I have found the following details for you about ' + return_matched_names[0] +'./n'
-                        + 'Department: ' + str(department) + '/n' + 'Office Number: ' + str(office_num))
+                        dispatcher.utter_message('I have found the following details for you about ' + return_matched_names[0] +'.\n'
+                        + 'Department: ' + str(department) + '\n' + 'Office Number: ' + str(office_num))
                         return []
 
                 elif bool(len(indexes) > 1):

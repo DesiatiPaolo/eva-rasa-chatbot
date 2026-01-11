@@ -15,7 +15,7 @@ intents:
   - get_names_from_dept
   - find_office_room_number_of
 
-entites:
+entities:
   - person_names
   - department_names
   - room_number
