@@ -11,7 +11,7 @@ python -m pip install spacy
 ```
 - install SpaCy model
 ```
-python -m spacy install es_core_news_md
+python -m spacy download es_core_news_md
 ```
 
 
